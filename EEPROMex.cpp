@@ -72,9 +72,7 @@ void EEPROMClassEx::setMemPool(int base, int memSize) {
  * Set global maximum of allowed writes
  */
 void EEPROMClassEx::setMaxAllowedWrites(int allowedWrites) {
-#ifdef _EEPROMEX_DEBUG
 	_allowedWrites = allowedWrites;
-#endif			
 }
 
 /**
